@@ -1,0 +1,105 @@
+.mainDiv {
+  height: 100vh;
+}
+.headerDiv {
+  background-color: #3367d6;
+  width: 100%;
+  height: 90px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchButton {
+  background-color: #2850a7;
+  height: 40px;
+  width: 60px;
+  border: 1px solid #ececec;
+}
+.searchInput {
+  background-color: #2850a7;
+  height: 40px;
+  width: 320px;
+  border: 1px solid #ececec;
+  color: white;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.searchBox {
+  display: flex;
+}
+.bodyDiv {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ul {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  width: 95%;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.info {
+  display: flex;
+  width: 100%;
+}
+.infoText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.timeHeading {
+  color: #475569;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.iconImg {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+.heading1 {
+  color: #475569;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.paragraph {
+  color: #64748b;
+  font-size: 20px;
+  margin-top: 18px;
+  margin-right: 10px;
+}
+.button {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+.deleteImg {
+  height: 30px;
+  width: 30px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 575px), (min-width: 576px) {
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .info {
+    display: flex;
+    flex-direction: row;
+  }
+}
