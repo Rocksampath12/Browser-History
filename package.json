@@ -63,5 +63,6 @@
       "Firefox ESR",
       "not ie < 11"
     ]
-  }
+  },
+  "homepage": "https://Rocksampath12.github.io/Browser-History"
 }
