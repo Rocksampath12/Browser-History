@@ -31,7 +31,9 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix src/",
     "format": "prettier --write \"./src\"",
-    "run-all": "npm-run-all --parallel test lint:fix"
+    "run-all": "npm-run-all --parallel test lint:fix",
+    "predeploy": "npm run build",
+    "deploy": "cp -r build/* docs/"
   },
   "lint-staged": {
     "*.js": [
